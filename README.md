@@ -17,7 +17,7 @@ If possible, make so that the information is persistent ( as in an data base ).
 
 ## Links
 
-I used 'target="_blank"' but it did not work, so you must manually open the links below in an new tab.
+I used 'target="_blank"' but it did not work, so you must manually open the links below in a new tab.
 
 <a href="" target="_blank" >Click here to acess the front-end</a>
 
