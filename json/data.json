@@ -1,0 +1,25 @@
+{
+    "livros": [
+        {
+            "titulo": "Como fazer sentido e bater o martelo",
+            "autor": "Alexandro Aolchique",
+            "ano": "2017",
+            "status": "disponível",
+            "portador": ""
+        },
+        {
+            "titulo": "Sejamos todos feministas",
+            "autor": "Chimamanda Ngozi Adichie",
+            "ano": "2015",
+            "status": "disponível",
+            "portador": ""
+        },
+        {
+            "titulo": "Basquete 101",
+            "autor": "Hortência Marcari",
+            "ano": "2010",
+            "status": "disponível",
+            "portador": ""
+        }
+    ]
+}

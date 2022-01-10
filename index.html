@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="style/library.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Biblioteca Ágil</title>
+</head>
+
+<body onload="generateList()">
+    <p class="top-search" >
+        <input type="search" name="" id="search" placeholder="Autor ou Título da obra">
+        <button  onclick="generateList()">Pesquisar</button>
+    </p>
+    <div id="list" class="list">
+
+    </div>
+    <div class="new-book">
+        <h2>Novo livro</h2>
+        <p>Titulo</p>
+        <input type="text">
+        <p>Autor</p>
+        <input type="text">
+        <p>Ano</p>
+        <input type="number">
+    </div>
+    <div class="book-info">
+            <p>Titulo: </p>
+            <p id='info-title'>404</p>
+            <p>Autor: </p>
+            <p id='info-author'>404</p>
+            <p>Ano: </p>
+            <p id='info-year'>404</p>
+            <p>Status: </p>
+            <p id='info-status'>404</p>
+            <p>Emprestado Para: </p>
+            <p id='info-borrower'>404</p>
+        
+    </div>
+    <button class="new-book-btn" title="Registrar Novo Livro" ></button>
+
+    <script src="biblioteca-api.js"></script>
+    <script src="render-list.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
