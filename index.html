@@ -10,52 +10,54 @@
 </head>
 
 <body onload="generateList()">
-    <p class="top-search">
-        <input type="search" name="" id="search" placeholder="Autor ou Título da obra">
-        <button onclick="generateList()">Pesquisar</button>
-    </p>
-    <div id="list" class="list"></div>
 
-    <div id="screen-cover" class="screen-cover"></div>
+        <p class="top-search">
+            <input type="search" name="" id="search" placeholder="Autor ou Título da obra">
+            <button onclick="generateList()">Pesquisar</button>
+        </p>
+        <div id="list" class="list"></div>
 
-    <div id="new-book" class="new-book">
-        <h2>Novo livro</h2>
-        <p>Titulo</p>
-        <input id="new-title" type="text">
-        <p>Autor</p>
-        <input id="new-author" type="text">
-        <p>Ano</p>
-        <input id="new-year" type="number">
-        <button onclick="closeBookRegister()" class="left">Cancelar</button>
-        <button class="right" onclick="registerBook()">Registrar</button>
-    </div>
+        <div id="screen-cover" class="screen-cover"></div>
 
-    <div id="book-info" class="book-info">
-        <h2>Informações deste exemplar</h2>
-        <p>Titulo: </p>
-        <p id='info-title'>404</p>
-        <p>Autor: </p>
-        <p id='info-author'>404</p>
-        <p>Ano: </p>
-        <p id='info-year'>404</p>
-        <p>Status: </p>
-        <p id='info-status'>404</p>
-        <p>Emprestado Para: </p>
-        <p id='info-borrower'>404</p>
-        <label for="borrower">Emprestar Para: </label>
-        <input id="borrower" type="text" placeholder="Digite o nome do solicitante">
-        <button onclick="closeBookInfo()" class="left">Cancelar</button>
-        <button id="borrow-btn" class="right">Emprestar</button>
-        <button id="return-btn" class="right">Devolver</button>
-    </div>
-    <button class="new-book-btn" title="Registrar Novo Livro" onclick="openBookRegister()"></button>
+        <div id="new-book" class="new-book">
+            <h2>Novo livro</h2>
+            <p>Titulo</p>
+            <input id="new-title" type="text">
+            <p>Autor</p>
+            <input id="new-author" type="text">
+            <p>Ano</p>
+            <input id="new-year" type="number">
+            <button onclick="closeBookRegister()" class="left">Cancelar</button>
+            <button class="right" onclick="registerBook()">Registrar</button>
+        </div>
 
-    <div id="warning" class="warning" > 
+        <div id="book-info" class="book-info">
+            <h2>Informações deste exemplar</h2>
+            <p>Titulo: </p>
+            <p id='info-title'>404</p>
+            <p>Autor: </p>
+            <p id='info-author'>404</p>
+            <p>Ano: </p>
+            <p id='info-year'>404</p>
+            <p>Status: </p>
+            <p id='info-status'>404</p>
+            <p>Emprestado Para: </p>
+            <p id='info-borrower'>404</p>
+            <label for="borrower">Emprestar Para: </label>
+            <input id="borrower" type="text" placeholder="Digite o nome do solicitante">
+            <button onclick="closeBookInfo()" class="left">Cancelar</button>
+            <button id="borrow-btn" class="right">Emprestar</button>
+            <button id="return-btn" class="right">Devolver</button>
+        </div>
+        <button class="new-book-btn" title="Registrar Novo Livro" onclick="openBookRegister()"></button>
+
+        <h1 style="font-family: 'Times New Roman', Times, serif; text-align: center; font-size: 14px;"> Marco Antônio M.
+            Roos (Jan/2022) - Biblioteca Ágil </h1>
+
+    <div id="warning" class="warning">
         <h2 id="warning-title">Warning Title</h2>
         <p id="warning-message">Warning Message</p>
     </div>
-
-    <h1 style="font-family: 'Times New Roman', Times, serif; text-align: center; font-size: 18px;"> Marco Antônio M. Roos (Jan/2022) - Biblioteca Ágil  </h1>
 
     <script src="biblioteca-api.js"></script>
     <script src="render-list.js"></script>

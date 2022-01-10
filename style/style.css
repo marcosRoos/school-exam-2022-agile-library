@@ -1,6 +1,18 @@
+html {
+    position: fixed;
+    width: 360px;
+    overflow: hidden;
+}
+
 body {
+    position: fixed;
+    margin: 0;
+    height: 100%;
+    width: 100vw;
+    overflow-x: hidden;
     background-color: #eee;
 }
+
 
 @keyframes slideOut {
     0% {
@@ -53,10 +65,11 @@ body {
 }
 
 .list {
+    box-sizing: border-box;
     background-color: #fff;
     width: 80vw;
     height: 85vh;
-    margin: 4px auto 4px auto;
+    margin: 4px 10vw 4px 10vw;
     border: solid #666;
     border-radius: 8px;
     overflow-y: auto;
