@@ -15,6 +15,10 @@ If possible, make so that the information is persistent ( as in an data base ).
 
 <hr>
 
+## Links
+
+-I used 'target="_blank"' but it did not work, so you must manually open the links below in an new tab.
+
 <a href="" target="_blank" >Click here to acess the front-end</a>
 
 <a href="https://biblioteca-agil.herokuapp.com/" target="_blank" >Click here to acess the heroku fake Rest API JSON data</a>
