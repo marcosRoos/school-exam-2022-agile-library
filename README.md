@@ -19,7 +19,7 @@ If possible, make so that the information is persistent ( as in an data base ).
 
 I used 'target="_blank"' but it did not work, so you must manually open the links below in a new tab.
 
-### Important : Promises may take a while and you may need to refresh the data manually, it worked fine on localhost, but on free heroku it gets very slow, so, i decided to let the timeout time in 1000ms, and let the user refresh data by clicking "pesquisar".
+### Important : Promises may take a while and you may need to refresh the data manually, it worked fine on localhost, but on free heroku it gets very slow, so, i decided to let the timeout time in 1000ms, and let the user refresh data by clicking "pesquisar". If you which to see it run fast, download the repository, enter "json" folder and use `npm start` command to start the localhost, take the adress and use it on `_url` variable at "biblioteca-api.js" ("front" folder).
 
 <a href="https://marcosroos.github.io/school-exam-2022-agile-library/" target="_blank" >Click here to acess the front-end</a>
 
