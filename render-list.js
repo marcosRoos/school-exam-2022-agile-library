@@ -6,9 +6,10 @@ class renderer {
         list.then(data => {
             listElement.innerHTML = '';
             if (data != null ) {
-                data.forEach(element => {
+                data.forEach( function (element, index) {
                     let base = document.createElement('div');
                     base.className = "book-base";
+                    base.setAttribute( 'onClick', `openBookInfo(${index})`);
 
                     let titleLabel = document.createElement('p');
                     titleLabel.innerHTML = 'Titulo: ';

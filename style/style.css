@@ -2,6 +2,52 @@ body {
     background-color: #eee;
 }
 
+@keyframes slideOut {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(0);
+    }
+    10% {
+        transform: translateX(-100%);
+    }
+    90% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.warning {
+    position: absolute;
+    z-index: 5;
+    top: 16px;
+    right: -280px;
+    background-color: #fcc;
+    height: 96px;
+    width: 280px;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 8px;
+    animation: slideOut 0s forwards;
+}
+
+.warning h2 {
+    margin: 0;
+}
+
+.warning p {
+    margin: 0;
+}
+
 .top-search {
     text-align: center;
 }
@@ -13,6 +59,7 @@ body {
     margin: 4px auto 4px auto;
     border: solid #666;
     border-radius: 8px;
+    overflow-y: auto;
 }
 
 .new-book-btn {
@@ -28,6 +75,7 @@ body {
     background-position: center;
     background-size: cover;
     border: none;
+    z-index: 1;
 }
 
 .new-book-btn:hover {
@@ -38,40 +86,62 @@ body {
     background-color: #bbf;
 }
 
-.new-book {
+.new-book, .book-info {
     display: none;
     position: absolute;
     background-color: #ddd;
     border: solid #666;
     border-radius: 8px;
     width: 280px;
-    height: 400px;
     top: 50vh;
     left: 50vw;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
-    padding: 16px;
+    padding: 16px 16px 64px 16px;
+    z-index: 3;
 }
 
-.new-book h2 {
+.book-info label {
+    margin-top: 16px;
+}
+
+.book-info input, label {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.new-book h2, .book-info h2 {
     text-align: center;
     margin: 0 0 24px 0;
 }
 
-.new-book p {
+.new-book p, .book-info p {
     text-align: center;
-    font-weight: bold;
     font-size: 18px;
     margin: 0;
 }
 
-.new-book input {
+.new-book p, .book-info p:nth-of-type(odd) {
+    font-weight: bold;
+}
+
+.new-book input, .book-info input {
     display: block;
     margin: 4px auto 4px auto;
 }
 
-.book-info {
+.book-info button
+
+.screen-cover {
     display: none;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 2;
 }
 
 .list p {
@@ -110,6 +180,18 @@ body {
 .indisponible {
     font-weight: bolder;
     color: #a33;
+}
+
+.left {
+    position: absolute;
+    left: 8px;
+    bottom: 8px;
+}
+
+.right  {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
 }
 
 @media (max-width:600px) {
