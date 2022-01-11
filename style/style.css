@@ -207,6 +207,12 @@ body {
     bottom: 8px;
 }
 
+.pucrs-logo {
+    height: 48px;
+    display: block;
+    margin: auto;
+}
+
 @media (max-width:600px) {
     .book-base {
         height: 152px;
