@@ -21,7 +21,7 @@ Se possível, faça com que a informação seja persistente ( Como que em um ban
 
 Eu usei `target="_blank"` mas não funcionou, então você precisará abrir os links abaixo em uma nova aba manualmente.
 
-### Importante : Promessas podem levar um tempo pra responder, então você pode precisar atualizar os dados manualmente. Funciona bem mais rápido no Localhost, mas no heroku gratuito ficou bem lento, então eu decidi deixar o timeout em 1000ms e deixar para o usuário a parte de atualizar os dados, pressionando "pesquisar". Se você quiseer ver o sistema rodando em velocidade plena, entre na pasta "json" e execute o comando `npm start` para iniciar o localhost, pegue o endereço e use-o na variável `_url` em "biblioteca-api.js" (na pasta "front").
+### Importante : o Heroku pode demorar às vezes, e você pode precisar atualizar a página ou executar alguma ação pra ver updates.
 
 <a href="https://marcosroos.github.io/school-exam-2022-agile-library/" target="_blank" >Clique aqui para acessar o front-end</a>
 
