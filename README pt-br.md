@@ -19,7 +19,7 @@ Se possível, faça com que a informação seja persistente ( Como que em um ban
 
 ## Links
 
-Eu usei `target="_blank"` mas não funcionou, então você precisará abrir os links abaixo em uma nova aba manualmente.
+`target="_blank"` não funciona no github, então você precisará abrir os links abaixo em uma nova aba manualmente.
 
 ### Importante : o Heroku pode demorar às vezes, e você pode precisar atualizar a página ou executar alguma ação pra ver updates.
 
