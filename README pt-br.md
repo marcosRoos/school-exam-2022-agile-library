@@ -23,6 +23,6 @@ Se possível, faça com que a informação seja persistente ( Como que em um ban
 
 ### Importante : o Heroku pode demorar às vezes, e você pode precisar atualizar a página ou executar alguma ação pra ver updates.
 
-<a href="https://marcosroos.github.io/school-exam-2022-agile-library/" target="_blank" >Clique aqui para acessar o front-end</a>
+<a href="https://marcosroos.github.io/school-exam-2022-agile-library/">Clique aqui para acessar o front-end</a>
 
-<a href="https://biblioteca-agil.herokuapp.com/" target="_blank" >Clique aqui para acesssar os dados da fake Rest API no Heroku</a>
+<a href="https://biblioteca-agil.herokuapp.com/">Clique aqui para acesssar os dados da fake Rest API no Heroku</a>
