@@ -19,7 +19,7 @@ If possible, make so that the information is persistent ( as in an data base ).
 
 ## Links
 
-I used `target="_blank"` but it did not work, so you must manually open the links below in a new tab.
+`target="_blank"` does not work on github, so you must manually open the links below in a new tab.
 
 ### Important : Sometimes heroku may get slower, and you may need to refresh the page or take an action to see updates.
 
