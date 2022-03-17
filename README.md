@@ -1,3 +1,5 @@
+<img src="http://unmaintained.tech/badge.svg"/>
+
 <a href="https://github.com/marcosRoos/school-exam-2022-agile-library/blob/main/README%20pt-br.md">Clique aqui para ler isto em Pt-BR</a>
 
 # School Exam 2022 - Agile Library (1/3)
